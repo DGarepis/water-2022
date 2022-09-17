@@ -1,0 +1,15 @@
+{
+    "devDependencies": {
+        "@turf/turf": "^5.1.6",
+        "parcel": "^2.3.2"
+    },
+    "source": "src/index.html",
+    "scripts": {
+        "build": "parcel build --dist-dir docs --public-url /new_map",
+        "start": "parcel",
+        "process": "cd src && node --experimental-modules --experimental-json-modules process.mjs"
+    },
+    "dependencies": {
+        "mapbox-gl": "^2.6.0"
+    }
+}
