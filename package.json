@@ -5,7 +5,7 @@
     },
     "source": "src/index.html",
     "scripts": {
-        "build": "parcel build --dist-dir docs --public-url /new_map",
+        "build": "parcel build --dist-dir docs --public-url ./",
         "start": "parcel",
         "process": "cd src && node --experimental-modules --experimental-json-modules process.mjs"
     },
